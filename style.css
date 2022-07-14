@@ -1,0 +1,39 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 180px;
+}
+
+.header-links {
+    margin-right: 180px;
+}
+
+
+
+/* Remove decoration from links list */
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding-inline: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
