@@ -135,6 +135,60 @@ header {
     text-align: end;
 }
 
+.banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-box {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap: 200px;
+    width: 950px;
+    height: 125px;
+    background-color: #3882F6;
+    margin: 100px;
+    border-radius: 8px;
+}
+
+.signup-textbox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.signup-textbox h4 {
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.signup-textbox p {
+    color: #F9FAF8;
+    font-size: 16px;
+}
+
+.button-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-box button {
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    height: 36px;
+    width: 120px;
+}
+
 /* Remove decoration from links list */
 ul {
     list-style-type: none;
