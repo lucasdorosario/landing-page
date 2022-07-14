@@ -61,6 +61,12 @@ header {
     width: 120px;
 }
 
+.hero-image {
+    width: 475px;
+    height: 250px;
+    margin-right: 24px;
+}
+
 /* Remove decoration from links list */
 ul {
     list-style-type: none;
