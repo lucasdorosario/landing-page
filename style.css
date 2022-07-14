@@ -189,6 +189,19 @@ header {
     width: 120px;
 }
 
+footer {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+}
+
+footer p {
+    font-size: 16px;
+    color: #F9FAF8;
+}
+
 /* Remove decoration from links list */
 ul {
     list-style-type: none;
