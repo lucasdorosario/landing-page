@@ -13,7 +13,7 @@ header {
 .logo {
     color: #F9FAF8;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 700;
     margin-left: 180px;
 }
 
@@ -21,7 +21,45 @@ header {
     margin-right: 180px;
 }
 
+.hero {
+    background-color: #1F2937;
+    padding: 100px 180px;
+    display: flex;
+    justify-content: space-between;
+}
 
+.hero-container {
+    width: 400px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 24px;
+}
+
+.hero-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+
+.hero-subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px solid #3882F6;
+    border-radius: 8px;
+    height: 30px;
+    width: 120px;
+}
 
 /* Remove decoration from links list */
 ul {
@@ -36,4 +74,5 @@ li {
 a {
     text-decoration: none;
     color: #E5E7EB;
+    font-size: 18px;
 }
